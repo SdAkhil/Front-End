@@ -1,0 +1,16 @@
+﻿Front-End Setup Instructions:
+
+1. Create .env File:
+In the root directory of your project, create a file named .env if it does not exist.
+- Add the following line to the .env file:
+NEXT_PUBLIC_API_URL="http://localhost:4000"
+
+2. Install Dependencies:
+sudo npm install
+
+3. Install Tailwind CSS and PostCSS:
+sudo npm install -D tailwindcss postcss autoprefixer
+sudo npx tailwindcss init -p
+
+4. Run the Development Server:
+sudo npm run dev
